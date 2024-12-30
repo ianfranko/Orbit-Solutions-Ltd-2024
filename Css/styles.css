@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(to right, #87CEEB, #00BFFF);
+}
+
+.nav-link {
+    color: black !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+.btn-light.btn-lg {
+    background-color: #87CEEB; /* Sky blue color */
+    color: black;
+    border: none;
+}
+
+.btn-light.btn-lg:hover {
+    background-color: #00BFFF; /* Darker sky blue on hover */
+    color: black;
+}
+
+.top-bar {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar .search-bar input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.top-bar .language-selector {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar .language-selector select {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+footer {
+    font-size: 0.9rem;
+    background-color: #87CEEB; /* Sky blue color */
+    color: black;
+}
